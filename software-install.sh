@@ -2,6 +2,8 @@
 # Script to do some first-time setup.  Needs to be run with sudo
 
 # Redis
-apt-get install redis-server
+apt-get install -y redis-server
 # Nginx
-apt-get install nginx
+apt-get install -y nginx
+# Python stuff
+pip3 install virtualenv
